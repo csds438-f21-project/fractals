@@ -128,8 +128,8 @@ if __name__ == '__main__':
     # Handle command-line arguments
     if len(sys.argv) < 2:
         print(f'USAGE: python3 {sys.argv[0]} <framework> [num_processes]')
-        print('    framework: ray, lewicki, serial')
-        print('    num_processes: space-separated list of compute processes for each run. Default: 1')
+        print('    framework: ray, lewicki, mp, serial')
+        print('    num_processes: space-separated list of processes for each run. Default: 1')
         print(f'EXAMPLE: python3 {sys.argv[0]} ray 2 4 8 16')
         sys.exit(0)
 
